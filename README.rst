@@ -53,10 +53,11 @@ Example of using `skinfer` to generate a schema from a list of samples::
     }
 
 
-Install with::
+### Install
 
-    $ pip install skinfer
+Before installing this package you should install [json_schema_generator](https://github.com/Pervasive-Technologies/json_schema_generator) package. Once you have json_schema_generator installed you should clone this repo into your machine and install it:
 
-Or, if you don't have ``pip``, you can still install it with::
-
-    $ easy_install skinfer
+```
+git clone https://github.com/Pervasive-Technologies/skinfer
+pip3 install -e ./skinfer
+```
